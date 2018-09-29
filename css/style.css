@@ -1,0 +1,21 @@
+.states {
+  fill: #e5e5e5;
+  stroke: #fff;
+  stroke-width: 2px;
+}
+
+.county:hover {
+  stroke: steelblue;
+}
+
+#tooltip {
+  position: absolute;
+  pointer-events: none;
+}
+
+#tooltip {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  background-color: #333;
+  color: #eee;
+}
