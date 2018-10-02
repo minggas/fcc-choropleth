@@ -1,3 +1,21 @@
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 98%);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
 .states {
   fill: #e5e5e5;
   stroke: #fff;
@@ -5,7 +23,8 @@
 }
 
 .county:hover {
-  stroke: steelblue;
+  stroke: rgb(102, 231, 51);
+  stroke-width: 2px;
 }
 
 #tooltip {
